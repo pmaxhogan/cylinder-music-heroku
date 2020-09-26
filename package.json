@@ -1,0 +1,27 @@
+{
+  "name": "cylinder-music-heroku",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/realprogrammer5000/cylinder-music-heroku.git"
+  },
+  "author": "programmer5000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/realprogrammer5000/cylinder-music-heroku/issues"
+  },
+  "homepage": "https://github.com/realprogrammer5000/cylinder-music-heroku#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
