@@ -37,4 +37,5 @@ app.get('/api/getAlbums', async (request, response) => {
     }
     const results = await getAllOfSomething("https://amp-api.music.apple.com/v1/me/library/albums?include[library-albums]=artists&include[library-artists]=catalog&fields[artists]=url&includeOnly=catalog%2Cartists&limit=100", request.query.auth, request.query.token);
     response.json(results);
+    response.header("Access-Control-Allow-Origin", "*");
 })
